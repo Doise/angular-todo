@@ -5,7 +5,7 @@
 
 ## 📺 Preview
 
-![plot](todolist\src\assets\todo.png)
+![plot](https://raw.githubusercontent.com/Doise/angular-todo/master/src/assets/todo.png)
 ![plot](todolist\src\assets\todo.png)
 
 https://angular-todo-be9d2.web.app/
