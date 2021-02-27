@@ -8,7 +8,6 @@
 <img src="https://raw.githubusercontent.com/Doise/angular-todo/master/src/assets/todo.png" width="250px">
 <img src="https://raw.githubusercontent.com/Doise/angular-todo/master/src/assets/todo-add.png" width="250px">
 
-
 https://angular-todo-be9d2.web.app/
 </br></br>
 
