@@ -1,0 +1,43 @@
+<div>
+  <!-- Todo card -->
+  <mat-card title="test">
+    <!-- show strike line text for done todo title -->
+    <span class="{{ todo.isDone ? 'strike' : '' }}">
+      <mat-card-title>{{ todo.title }}</mat-card-title>
+    </span>
+
+    <!-- Todo author -->
+    <mat-card-subtitle class="todo-author">{{ todo.author }}</mat-card-subtitle>
+
+    <!-- Todo content -->
+    <mat-card-content>
+      <p class="todo-create-date">
+        Created at: {{ todo.createdAt | date: "dd/MM/yyyy" }}
+      </p>
+      <p *ngIf="todo.scheduleAt" class="todo-create-date">
+        Scheduled to: {{ todo.scheduleAt | date: "dd/MM/yyyy" }}
+      </p>
+      <p class="todo-body">
+        {{ todo.body }}
+      </p>
+    </mat-card-content>
+
+    <!-- Card actions -->
+    <mat-card-actions class="actions">
+      <!-- Delete todo -->
+      <button mat-icon-button (click)="deleteTodo()">
+        <mat-icon>delete</mat-icon>
+      </button>
+
+      <div class="spacer"></div>
+
+      <!-- Toggle done -->
+      <mat-checkbox
+        color="accent"
+        [checked]="todo.isDone"
+        (change)="toggleIsDone($event)"
+        >Done</mat-checkbox
+      >
+    </mat-card-actions>
+  </mat-card>
+</div>

@@ -1,0 +1,28 @@
+.todo-create-date {
+  font-size: small;
+  margin: 0 !important;
+}
+
+.todo-author {
+  margin: 0;
+}
+
+.actions {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  margin: 0;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+.strike {
+  text-decoration: line-through;
+}
+
+.todo-body {
+  font-size: 14pt;
+  margin-top: 24px;
+}

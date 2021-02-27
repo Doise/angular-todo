@@ -1,0 +1,12 @@
+.app-bar {
+  top: 0;
+  position: sticky;
+  z-index: 1000;
+}
+
+.btn-add-todo {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 16px;
+}

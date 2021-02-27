@@ -1,0 +1,11 @@
+<!-- Todo list -->
+<div class="todos-panel">
+  <!-- List -->
+  <ul class="todo-list">
+    <!-- List items -->
+    <li *ngFor="let todo of todoService.getTodos() | async">
+      <!-- Todo component -->
+      <app-todo [todo]="todo"></app-todo>
+    </li>
+  </ul>
+</div>
