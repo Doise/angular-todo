@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "angular-todo-be9d2": {
+      "hosting": {
+        "todolist": [
+          "angular-todo-be9d2"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "angular-todo-be9d2"
+  }
+}

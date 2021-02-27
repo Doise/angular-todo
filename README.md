@@ -1,27 +1,44 @@
-# Todolist
+<h1 align="center">Angular Todo list 📝</h1>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.2.
+<p align="center">A simple todo list app written in angular.</p>
+</br></br>
 
-## Development server
+## 📺 Preview
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+![plot](todolist\src\assets\todo.png)
+![plot](todolist\src\assets\todo.png)
 
-## Code scaffolding
+https://angular-todo-be9d2.web.app/
+</br></br>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+## 🚀 Usage
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+1️⃣ Clone the repo:
 
-## Running unit tests
+```sh
+git clone https://github.com/Doise/angular-todo.git
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+2️⃣ Install dependencies:
 
-## Running end-to-end tests
+```sh
+npm install
+```
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+3️⃣ Run the server:
 
-## Further help
+```sh
+ng serve --open
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+</br>
+
+
+## 👨 Author
+
+**Noam Kantor**
+
+-   Github: [@Doise](https://github.com/Doise)
+
+</br>
