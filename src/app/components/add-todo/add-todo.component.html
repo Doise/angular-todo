@@ -9,14 +9,14 @@
   <form [formGroup]="dialogData" (submit)="createNewTodo()" class="add-todo-form">
 
     <!-- Author -->
-    <mat-form-field appearance="fill">
+    <mat-form-field appearance="outline">
       <mat-label>Author</mat-label>
       <input formControlName="author" matInput>
       <mat-error *ngIf="dialogData.invalid && (dialogData.dirty || dialogData.touched)">Not a valid author name.</mat-error>
     </mat-form-field>
 
     <!-- Title -->
-    <mat-form-field appearance="fill">
+    <mat-form-field appearance="outline">
       <mat-label>Title</mat-label>
       <input formControlName="title" matInput>
       <mat-error *ngIf="dialogData.status">Not a valid todo title.</mat-error>
@@ -33,7 +33,7 @@
     </mat-form-field>
 
     <!-- Schedule date picker -->
-    <mat-form-field appearance="fill">
+    <mat-form-field appearance="outline">
       <mat-label>Scheduled for</mat-label>
       <input matInput [matDatepicker]="picker" formControlName="scheduleAt">
       <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
